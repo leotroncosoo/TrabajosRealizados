@@ -1,0 +1,108 @@
+.inicio img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  position: absolute;
+}
+.inicio .texto {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.603);
+}
+.inicio .texto .titulos {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.inicio .texto .titulos h1 {
+  font-size: 60px;
+}
+.inicio .texto .titulos h2 {
+  font-size: 55px;
+  font-family: "Dancing Script", cursive;
+}
+.inicio .texto .linea {
+  width: 2px;
+  height: 50%;
+  padding: 2px;
+  background-color: beige;
+}
+.inicio .texto .parrafo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.inicio .texto .parrafo h2 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+}
+.inicio .texto .parrafo .finaltext {
+  margin-top: 80px;
+  font-size: 30px;
+  color: black;
+}
+
+.tarjetas {
+  margin: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 20px;
+}
+.tarjetas div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+.tarjetas div i {
+  font-size: 30px;
+  color: black;
+}
+.tarjetas div h3 {
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .texto {
+    flex-direction: column;
+  }
+  .texto .titulos {
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .texto .linea {
+    display: none;
+  }
+  .texto .parrafo {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+  }
+  /* TARJETAS RESPONSIVE */
+  .tarjetas {
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: 130px auto;
+    padding: auto;
+  }
+}
+
+/*# sourceMappingURL=inicio.css.map */

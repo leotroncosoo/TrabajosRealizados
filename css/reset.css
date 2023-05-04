@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+}
+
+body {
+  background-color: #84B9BF;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(10, 10, 10, 0.986);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* HEADER */
+header {
+  position: relative;
+  padding: 0 2rem;
+  z-index: 1;
+}
+
+.navegador {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navegador .logo a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+
+.navegador .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navegador .toggle_btn {
+  color: rgb(3, 3, 3);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+
+.action_btn:hover {
+  scale: 1.05;
+  color: white;
+}
+
+.action_btn:active {
+  scale: 0.95;
+}
+
+/* DROPDOWN_MENU */
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropdown_menu.open {
+  height: 220px;
+}
+
+.dropdown_menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* DISEÑO RESPONSIVO */
+@media (max-width: 992px) {
+  .navegador .links,
+  .navegador .action_btn {
+    display: none;
+  }
+  .navegador .toggle_btn {
+    display: block;
+  }
+  .dropdown_menu {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
+}
+
+/*# sourceMappingURL=reset.css.map */

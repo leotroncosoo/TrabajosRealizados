@@ -1,0 +1,71 @@
+.opiniones {
+  text-align: center;
+}
+.opiniones h1 {
+  padding: 50px;
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  color: #D94D1A;
+}
+.opiniones .caja-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.opiniones .caja-contenedor .caja {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+}
+.opiniones .caja-contenedor .caja .fa-atom {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: var(--limon);
+  opacity: 0.3;
+}
+.opiniones .caja-contenedor .caja .user .img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 8rem;
+  width: 8rem;
+  margin-top: 2rem;
+}
+.opiniones .caja-contenedor .caja .user .h3 {
+  color: var(--verde);
+  font-size: 2rem;
+}
+.opiniones .caja-contenedor .caja .user .stars i {
+  color: var(--verde);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: rgb(241, 241, 7);
+}
+.opiniones .caja-contenedor .caja .comentarios {
+  color: #666;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.botonn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.botonn a {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 1rem;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+/*# sourceMappingURL=opiniones.css.map */

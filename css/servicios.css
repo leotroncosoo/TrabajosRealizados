@@ -1,0 +1,56 @@
+.servicios {
+  display: flex;
+  gap: 10px;
+  padding: 50px;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: start;
+}
+.servicios .texto-servicios {
+  background-color: bisque;
+  border-radius: 30px;
+}
+.servicios .texto-servicios h2 {
+  padding: 40px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.servicios .imagen-servicio {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+.servicios .imagen-servicio h2 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  color: #D94D1A;
+}
+
+/* Responsivee */
+@media (max-width: 992px) {
+  .servicios {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: auto;
+  }
+  .servicios .texto-servicios {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+  .servicios .imagen-servicio {
+    flex-direction: row;
+  }
+  .servicios .imagen-servicio img {
+    width: 50%;
+  }
+  .servicios .imagen-servicio h2 {
+    width: 50%;
+    padding: auto;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=servicios.css.map */

@@ -1,0 +1,24 @@
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
+  gap: 40px;
+}
+.nosotros h2 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  color: #D94D1A;
+}
+.nosotros h3 {
+  padding: 40px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

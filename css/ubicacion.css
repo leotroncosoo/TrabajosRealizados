@@ -1,0 +1,41 @@
+.Ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px;
+  padding: 70px;
+  background-color: bisque;
+  border-radius: 20px;
+}
+.Ubicacion h2 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  color: #D94D1A;
+  text-align: center;
+}
+.Ubicacion h3 {
+  padding: 42px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  .Ubicacion {
+    margin: 50px auto;
+    padding: auto;
+  }
+  .Ubicacion div iframe {
+    width: 300px;
+    height: 225px;
+  }
+}
+@media (max-width: 576px) {
+  .Ubicacion div iframe {
+    width: 175px;
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=ubicacion.css.map */

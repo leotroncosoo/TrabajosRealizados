@@ -1,0 +1,49 @@
+.contenedor-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+  padding: 50px;
+  background-color: bisque;
+  border-radius: 20px;
+}
+.contenedor-contacto h2 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  color: #D94D1A;
+}
+.contenedor-contacto .redes {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.contenedor-contacto .redes a img {
+  width: 60px;
+  cursor: pointer;
+}
+.contenedor-contacto .texto-contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-contacto .texto-contacto label {
+  padding: 20px;
+}
+.contenedor-contacto .texto-contacto .boton-contacto {
+  border-radius: 5px;
+  width: 20%;
+  background-color: cadetblue;
+  color: white;
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=contacto.css.map */
